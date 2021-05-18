@@ -1,0 +1,22 @@
+
+
+body {
+    background-image: url('/assets/images/dk-background-2.jpg');
+    background-size: 300vh; /* need to set media queries for this*/
+}
+
+nav {
+    background-color: rgba(61, 113, 182, 0.438);
+}
+h1 {
+    /* font-family: 'VT323', monospace; */
+    font-family: 'Syne Mono', monospace;
+    font-size: 40px;
+    color: white;
+}
+
+#dice {
+    height: 10rem;
+    position: fixed;
+    
+}
