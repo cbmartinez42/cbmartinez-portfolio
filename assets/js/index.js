@@ -11,7 +11,8 @@ document.addEventListener('DOMContentLoaded', function() {
 var aText = new Array(
     "Hi. I'm Chris.",
     "With me, it's never a roll of the dice.",
-    "Have a look. :)"
+    "Have a look. :)",
+    "               "
 
     );
     var iSpeed = 100;

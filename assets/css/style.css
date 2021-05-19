@@ -7,6 +7,16 @@ body {
 
 nav {
     background-color: rgba(61, 113, 182, 0.438);
+    height: 10rem;
+}
+
+.sidenav {
+    background-color: rgba(61, 113, 182, 0.808);
+    
+}
+
+.sidenav li>a {
+    color: white;
 }
 h1 {
     /* font-family: 'VT323', monospace; */
@@ -17,6 +27,7 @@ h1 {
 
 #dice {
     height: 10rem;
-    position: fixed;
-    
+    position: absolute;
+    right: 500px;
+    bottom: 200px
 }
