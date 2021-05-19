@@ -1,7 +1,7 @@
 
 
 body {
-    background-image: url('../images/dk-background-2.jpg');
+    background-image: url('../images/dk-background-2.jpg')!important;
     background-size: 300vh; /* need to set media queries for this*/
 }
 
@@ -10,24 +10,29 @@ body {
 }
 
 nav {
-    background-color: rgba(61, 113, 182, 0.438);
+    background-color: rgba(61, 113, 182, 0.438)!important;
     height: 8rem;
     font-family: 'Fondamento', cursive;
+    color: white;
 }
 
+nav ul a {
+    font-size: 1.75rem;
+}
 .sidenav {
     background-color: rgba(61, 113, 182, 0.808);
     font-family: 'Fondamento', cursive;
 }
 
 .sidenav li>a {
-    color: white;
+    color: white!important;
+
 }
 
 h1 {
     font-family: 'Press Start 2P', cursive;
     font-size: 2rem;
-    color: white;
+    color: white!important;
 }
 
 #typewriter {
@@ -35,7 +40,7 @@ h1 {
 }
 .about-text {
     color: white;
-    margin-top: 10rem;
+    margin-top: 2rem;
 }
 
 #dice {
@@ -46,6 +51,23 @@ h1 {
     z-index: -1;
     /* background-image: url('../images/dice2-mblur300.png'); */
     
+}
+
+.qc {
+    padding-left: 6rem!important;
+    padding-right: 6rem!important;
+    justify-content: center;
+    color: white;
+    font-size: 1rem;
+}
+
+.furbabies {
+    height: 20rem;
+    border-radius: 8px;
+}
+
+.example-container {
+    justify-content: center;
 }
 
 .overlay {
@@ -66,7 +88,7 @@ h1 {
 
 /* blur effect and overlay for examples */
 .example-container .screenshot {
-    filter: blur(4px);
+    filter: blur(5px);
 }
 
 .example-container:hover .screenshot {
@@ -117,16 +139,21 @@ h1 {
    
 }
 
+.furbabies {
+    height: 10rem;
+}
+
+
  @media only screen and (max-width: 576px) {
-.nav-wrapper a{
-    font-size: 1.1rem;
- 
-}
+    .nav-wrapper a{
+        font-size: 1.1rem;
+    
+    }
 
 
-h1 {
-    font-size: 2rem;
-}
+    h1 {
+        font-size: 2rem;
+    }
 
 
 }
@@ -145,6 +172,7 @@ h1 {
         font-size: 1.25rem;
     }
     
+
     /* #dice {
         height: 5rem;
         right: 100px;
