@@ -30,19 +30,63 @@ h1 {
     color: white;
 }
 
+#typewriter {
+    height: 2.5rem;
+}
+.about-text {
+    color: white;
+    margin-top: 10rem;
+}
+
 #dice {
     height: 10rem;
     position: absolute;
     right: 500px;
     bottom: 200px;
+    z-index: -1;
     /* background-image: url('../images/dice2-mblur300.png'); */
     
 }
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+}
+
+.example-container:hover .overlay {
+    opacity: 1;
+}
+
+/* blur effect and overlay for examples */
+.example-container .screenshot {
+    filter: blur(4px);
+}
+
+.example-container:hover .screenshot {
+    filter: none;
+    transition: .5s ease;
+}
+
 
 /* Media Queries for responsiveness */
 @media only screen and (max-width: 992px) {
     .nav-wrapper a{
         font-size: 1.5rem;
+    }
+
+    #typewriter {
+        height: .25rem;
+    }
+
+    .about-text {
+        margin-top: 5rem;
     }
 
     /* #dice {
@@ -56,6 +100,13 @@ h1 {
 @media only screen and (max-width: 768px) {
     .nav-wrapper a{
         font-size: 1.25rem;
+    }
+    #typewriter {
+        height: .1rem;
+    }
+
+    .about-text {
+        margin-top: 5rem;
     }
 }
 
@@ -74,7 +125,7 @@ h1 {
 
 
 h1 {
-    font-size: 1rem;
+    font-size: 2rem;
 }
 
 
@@ -91,7 +142,7 @@ h1 {
     }
     
     h1 {
-        font-size: 1rem;
+        font-size: 1.25rem;
     }
     
     /* #dice {
