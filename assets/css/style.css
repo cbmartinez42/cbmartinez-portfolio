@@ -5,14 +5,19 @@ body {
     background-size: 300vh; /* need to set media queries for this*/
 }
 
+.nav-wrapper {
+    padding: 1.75rem;
+}
+
 nav {
     background-color: rgba(61, 113, 182, 0.438);
-    height: 10rem;
+    height: 8rem;
+    font-family: 'Fondamento', cursive;
 }
 
 .sidenav {
     background-color: rgba(61, 113, 182, 0.808);
-    
+    font-family: 'Fondamento', cursive;
 }
 
 .sidenav li>a {
@@ -20,9 +25,8 @@ nav {
 }
 
 h1 {
-    /* font-family: 'VT323', monospace; */
-    font-family: 'Syne Mono', monospace;
-    font-size: 40px;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 2rem;
     color: white;
 }
 
@@ -33,4 +37,68 @@ h1 {
     bottom: 200px;
     /* background-image: url('../images/dice2-mblur300.png'); */
     
+}
+
+/* Media Queries for responsiveness */
+@media only screen and (max-width: 992px) {
+    .nav-wrapper a{
+        font-size: 1.5rem;
+    }
+
+    /* #dice {
+        height: 10rem;
+        right: 200px;
+        bottom: 100px;
+       
+    } */
+}
+  
+@media only screen and (max-width: 768px) {
+    .nav-wrapper a{
+        font-size: 1.25rem;
+    }
+}
+
+#dice {
+    height: 7.5rem;
+    right: 250px;
+    bottom: 125px;
+   
+}
+
+ @media only screen and (max-width: 576px) {
+.nav-wrapper a{
+    font-size: 1.1rem;
+ 
+}
+
+
+h1 {
+    font-size: 1rem;
+}
+
+
+}
+
+@media only screen and (max-width: 500px) {
+    .nav-wrapper a{
+        font-size: .8rem;
+     
+    }
+
+    body {
+        background-size: 150vh; 
+    }
+    
+    h1 {
+        font-size: 1rem;
+    }
+    
+    /* #dice {
+        height: 5rem;
+        right: 100px;
+        bottom: 100px;
+       
+    } */
+
 }

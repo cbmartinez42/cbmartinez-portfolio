@@ -28,7 +28,7 @@ var aText = new Array(
     {
      sContents =  ' ';
      iRow = Math.max(0, iIndex-iScrollAt);
-     var destination = document.getElementById("typewriter-intro");
+     var destination = document.getElementById("typewriter");
      
      while ( iRow < iIndex ) {
       sContents += aText[iRow++] + '<br />';
