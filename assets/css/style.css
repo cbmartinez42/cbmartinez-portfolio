@@ -13,12 +13,14 @@ nav {
     background-color: rgba(61, 113, 182, 0.438)!important;
     height: 8rem;
     font-family: 'Fondamento', cursive;
-    color: white;
+    
 }
 
 nav ul a {
     font-size: 1.75rem;
+
 }
+
 .sidenav {
     background-color: rgba(61, 113, 182, 0.808);
     font-family: 'Fondamento', cursive;
