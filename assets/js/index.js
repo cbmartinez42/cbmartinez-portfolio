@@ -15,7 +15,7 @@ var aText = new Array(
     "               "
 
     );
-    var iSpeed = 100;
+    var iSpeed = 50;
     var iIndex = 0; 
     var iArrLength = aText[0].length; 
     var iScrollAt = 20; 
