@@ -39,6 +39,9 @@ h1 {
     color: white!important;
 }
 
+h4 {
+    font-family: 'Montserrat', sans-serif;
+}
 #typewriter {
     height: 2.5rem;
     /* margin-bottom: 1rem; */
@@ -49,20 +52,21 @@ h1 {
     margin-top: 2rem;
     font-family: 'Montserrat', sans-serif;
     font-size: 1.25rem!important;
-    
-
 }
 
 .info-container {
     background-color: rgba(61, 113, 182, 0.438)!important;
     border-radius: 10px;
     margin-top: 3rem!important;
+    padding: 1rem;
+    margin-bottom: 2rem;
 }
+
 
 #dice {
     height: 10rem;
     position: absolute;
-    right: 500px;
+    right: 250px;
     bottom: 200px;
     z-index: -1;
     /* background-image: url('../images/dice2-mblur300.png'); */
@@ -80,13 +84,47 @@ h1 {
 .furbabies {
     height: 20rem;
     border-radius: 8px;
+    padding: 1rem;
 }
 
 .example-container {
     justify-content: center;
 }
 
-.overlay {
+/* .custom-row {
+    padding: 2rem;
+} */
+
+.resume {
+    height: 10rem;
+    filter: blur(1px);
+}
+
+.resume:hover {
+    height: 10.5rem;
+    filter: none;
+    transition: 1s ease;
+}
+.github {
+    height: 10rem;
+    padding: 1rem;
+}
+
+.github:hover {
+    height: 10.5rem;
+    transition: 1s ease;
+}
+
+.linkedin {
+    height: 3rem;
+}
+
+.linkedin:hover {
+    height: 3.5rem;
+    transition: 1s ease;
+}
+
+/* .overlay {
     position: absolute;
     top: 0;
     bottom: 0;
@@ -96,7 +134,7 @@ h1 {
     width: 100%;
     opacity: 0;
     transition: .5s ease;
-}
+} */
 
 .example-container:hover .overlay {
     opacity: 1;
