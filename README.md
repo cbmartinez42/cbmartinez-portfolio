@@ -17,7 +17,7 @@ The deployed application can be located at: https://cbmartinez42.github.io/cbmar
 ### Screenshot:   
 ![Screenshot](./assets/images/screenshot.gif)
 
-### Features
+#### Features
 * This site is a showcase for information about me and my work, intended for prospective collaborators and employers
 * This uses a multi-page layout in order to keep information succinct and minimize scrolling
 * A javascript typewriter function is included on all pages to display Header information
