@@ -14,9 +14,7 @@ This is a portfolio intended to provide prospective collaborators and employers 
 
 The deployed application can be located at: https://cbmartinez42.github.io/cbmartinez-portfolio/   
   
-    
-
-Screenshot:   
+### Screenshot:   
 ![Screenshot](./assets/images/screenshot.gif)
 
 ### Features
