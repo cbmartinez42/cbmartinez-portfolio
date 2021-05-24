@@ -12,7 +12,10 @@
 ## Description
 This is a portfolio intended to provide prospective collaborators and employers an overview of my work, as well as a high-level "About Me" section.
 
-The deployed application can be located at: https://cbmartinez42.github.io/cbmartinez-portfolio/
+The deployed application can be located at: https://cbmartinez42.github.io/cbmartinez-portfolio/   
+  
+    
+
 Screenshot:   
 ![Screenshot](./assets/images/screenshot.gif)
 
