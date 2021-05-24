@@ -95,6 +95,17 @@ h4 {
     padding: 2rem;
 } */
 
+.card {
+    background-color: rgba(16, 37, 63, 0.774);
+}
+
+.card-reveal {
+    background-color: rgba(16, 37, 63, 0.918)!important;
+}
+
+.card-description {
+    font-family: 'Montserrat', sans-serif;
+}
 .resume {
     height: 10rem;
     filter: blur(1px);
