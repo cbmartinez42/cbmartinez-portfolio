@@ -49,7 +49,8 @@ h4 {
 
 .headshot {
     border-radius: 50%;
-    padding-top: 1rem;
+    /* padding: 1rem; */
+    margin-top: 5rem;
 }
 
 .info-text {
@@ -79,8 +80,8 @@ h4 {
 }
 
 .qc {
-    padding-left: 6rem!important;
-    padding-right: 6rem!important;
+    padding-left: 6rem;
+    padding-right: 6rem;
     justify-content: center;
     color: white;
     font-size: 1rem;
@@ -89,21 +90,26 @@ h4 {
 .furbabies {
     height: 20rem;
     border-radius: 6px;
-    padding: 1rem;
+    /* padding: 1rem; */
 }
 
 .example-container {
     justify-content: center;
 }
 
-/* .custom-row {
-    padding: 2rem;
-} */
+.custom-row {
+    padding-bottom: 4rem;
+}
 
 .card {
     background-color: rgba(16, 37, 63, 0.774);
+    height: 400px!important;
+    padding: 0;
 }
 
+.card-content {
+    height: 250px!important;
+}
 .card-reveal {
     background-color: rgba(16, 37, 63, 0.918)!important;
 }
@@ -121,6 +127,7 @@ h4 {
     filter: none;
     transition: 1s ease;
 }
+
 .github {
     height: 10rem;
     padding: 1rem;
@@ -131,26 +138,19 @@ h4 {
     transition: 1s ease;
 }
 
+.email:hover {
+    font-size: 6.5rem!important;
+    transition: 1s ease;
+}
+
 .linkedin {
     height: 3rem;
 }
 
 .linkedin:hover {
-    height: 3.5rem;
+    height: 3.25rem;
     transition: 1s ease;
 }
-
-/* .overlay {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: 100%;
-    width: 100%;
-    opacity: 0;
-    transition: .5s ease;
-} */
 
 .example-container:hover .overlay {
     opacity: 1;
@@ -201,6 +201,9 @@ h4 {
         margin-top: 5rem;
     }
 
+    .headshot {
+        margin-top: 5rem;
+    }
 
     #dice {
         height: 7.5rem;
@@ -208,15 +211,22 @@ h4 {
         bottom: 125px;
     
     }
+    .card {
+        height: 275px!important;
+    }
 
     .furbabies {
         height: 10rem;
     }
 
+    .custom-row {
+        padding-bottom: 4rem;
+    }
+
 }
  @media only screen and (max-width: 576px) {
     .nav-wrapper a{
-        font-size: 1.1rem;
+        font-size: .9rem;
     
     }
 
@@ -230,10 +240,13 @@ h4 {
 
 @media only screen and (max-width: 500px) {
     .nav-wrapper a{
-        font-size: .8rem;
+        font-size: 1rem;
      
     }
 
+    .brand-logo {
+        font-size: .8rem!important;
+    }
     body {
         background-size: 150vh; 
     }
@@ -242,12 +255,21 @@ h4 {
         font-size: 1.25rem;
     }
     
+    .headshot {
+        margin-top: 0rem;
+        height: 200px;
+    }
 
-    /* #dice {
+    #dice {
         height: 5rem;
         right: 100px;
-        bottom: 100px;
+        bottom: 50px;
        
-    } */
-
+    }
+    .card {
+        height: 300px!important;
+    }
+    .custom-row {
+        padding-bottom: 0rem;
+    }
 }

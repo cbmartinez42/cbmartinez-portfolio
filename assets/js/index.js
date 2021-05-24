@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', function() {
   var instances = M.Sidenav.init(elems, hamburgerMenu);
 });
 
-
+// typewriter functionf for headers
 var aText = new Array(
     "Hi. I'm Chris.",
     "With me, it's never a roll of the dice.",
