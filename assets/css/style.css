@@ -83,6 +83,11 @@ h4 {
     
 }
 
+.technologies-container {
+    background-color: rgba(168, 186, 211, 0.959)!important;
+    padding: 2rem;
+}
+
 .technologies {
     text-align: center;
 }
@@ -92,11 +97,15 @@ h4 {
 }
 
 #express {
-    height: 100px;
+    height: 40px;
 }
 
 #mysql {
-    height: 50px;
+    height: 70px;
+}
+
+#mongodb {
+    height: 70px;
 }
 
 #handlebars {
