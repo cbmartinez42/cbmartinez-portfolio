@@ -1,46 +1,50 @@
-
-
 body {
     background-image: url('../images/dk-background-2.jpg')!important;
     background-size: 300vh; /* need to set media queries for this*/
 }
 
-.announcement {
-    /* background-color: black; */
-    background-image: url('./assets/images/logo.svg');
-    background-repeat: no-repeat;
-    padding-left: 20px;
-    height: 2.5rem;
+@font-face {
+    font-family: constructionReg;
+    src: url(./assets/typeface/ZillaSlabHighlight-Regular.ttf)
+}
+
+@font-face {
+    font-family: constructionBold;
+    src: url(./assets/typeface/ZillaSlapHighlight-Bold)
+}
+
+.no-margin {
+    margin: 0!important;
+}
+
+.border-bottom {
+    border-bottom: 10px;
+    border-color:  white;
+}
+
+#renovation {
+    background-color: rgba(61, 113, 182, 0.438); 
+    color: white;
+    font-family: 'Zilla Slab Highlight', serif;
+}
+
+.renovationAnnouncement {
+    font-family: 'Zilla Slab Highlight', serif;
+}
+
+.renovationSub  {
+    margin-bottom: 15px!important;
+    /* font-family: constructionReg' */
+    font-family: 'Zilla Slab Highlight', serif;
+}
+
+#announcement {
     display: block;
     color: #61D9FB;
     font-weight: bold;
-    /* position: relative; */
-    padding-top: 0.25%;
 }
 
-.app-logo {
-    height: 7vmin;
-    /* pointer-events: none; */
-    position: absolute;
-    display: block;
-    /* left: 50rem; */
-    top: .45%;
-  }
 
-@keyframes app-logo-spin {
-from {
-    transform: rotate(0deg);
-}
-to {
-    transform: rotate(360deg);
-}
-}
-
-@media (prefers-reduced-motion: no-preference) {
-    .app-logo {
-      animation: App-logo-spin infinite 20s linear;
-    }
-  }
 
 .nav-wrapper {
     padding: 1.75rem;
@@ -49,9 +53,8 @@ to {
 nav {
     background-color: rgba(61, 113, 182, 0.438)!important;
     height: 8rem;
-    /* font-family: 'Fondamento', cursive; */
     font-family: 'Montserrat', sans-serif;
-    
+    border-top: 1px solid white;
 }
 
 nav ul a {
@@ -61,7 +64,6 @@ nav ul a {
 
 .sidenav {
     background-color: rgba(61, 113, 182, 0.808);
-    /* font-family: 'Fondamento', cursive; */
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -128,7 +130,7 @@ h4 {
     padding: 2rem;
 }
 
-.technologies {
+.technologies { 
     text-align: center;
 }
 
