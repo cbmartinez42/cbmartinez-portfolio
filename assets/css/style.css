@@ -3,7 +3,7 @@ body {
     background-size: 300vh; /* need to set media queries for this*/
 }
 
-@font-face {
+/* @font-face {
     font-family: constructionReg;
     src: url(./assets/typeface/ZillaSlabHighlight-Regular.ttf)
 }
@@ -11,7 +11,7 @@ body {
 @font-face {
     font-family: constructionBold;
     src: url(./assets/typeface/ZillaSlapHighlight-Bold)
-}
+} */ 
 
 .no-margin {
     margin: 0!important;
