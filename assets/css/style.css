@@ -3,16 +3,6 @@ body {
     background-size: 300vh; /* need to set media queries for this*/
 }
 
-/* @font-face {
-    font-family: constructionReg;
-    src: url(./assets/typeface/ZillaSlabHighlight-Regular.ttf)
-}
-
-@font-face {
-    font-family: constructionBold;
-    src: url(./assets/typeface/ZillaSlapHighlight-Bold)
-} */ 
-
 .no-margin {
     margin: 0!important;
 }
@@ -24,18 +14,11 @@ body {
 
 #renovation {
     background-color: rgba(61, 113, 182, 0.438); 
-    color: white;
+    color: yellow;
     font-family: 'Zilla Slab Highlight', serif;
-}
-
-.renovationAnnouncement {
-    font-family: 'Zilla Slab Highlight', serif;
-}
-
-.renovationSub  {
-    margin-bottom: 15px!important;
-    /* font-family: constructionReg' */
-    font-family: 'Zilla Slab Highlight', serif;
+    /* bottom: 15px!important; */
+     font-size: 1.25em;
+     font-weight: 700;
 }
 
 #announcement {
@@ -43,8 +26,6 @@ body {
     color: #61D9FB;
     font-weight: bold;
 }
-
-
 
 .nav-wrapper {
     padding: 1.75rem;
