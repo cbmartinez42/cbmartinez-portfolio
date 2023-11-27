@@ -12,13 +12,13 @@ body {
     border-color:  white;
 }
 
-#renovation {
-    background-color: rgba(61, 113, 182, 0.438); 
-    color: yellow;
-    font-family: 'Zilla Slab Highlight', serif;
-    /* bottom: 15px!important; */
-     font-size: 1.25em;
-     font-weight: 700;
+#renovationAnnouncement {
+    background-color: rgba(61, 113, 182, 0.438);
+    margin: .5em 4em 1em 4em;
+    font-size: 1.25em;
+    font-weight: 700;
+    color: rgb(225, 86, 72);
+
 }
 
 #announcement {
