@@ -14,7 +14,8 @@ body {
 
 #renovation {
     color: rgb(195, 80, 60);
-    font-size: 1.25em;
+    /* font-size: 1.25em; */
+    font-size: .75em;
     font-weight: 700;
     background-color: rgba(61, 113, 182, 0.438);
 }
@@ -32,7 +33,14 @@ body {
 
 .nav-wrapper {
     padding: 1.75rem;
+    font-size: .25rem;
 }
+
+#titleText {
+    font-size: 2.25rem;
+    display: inherit;
+}
+
 
 nav {
     background-color: rgba(61, 113, 182, 0.438)!important;
@@ -66,7 +74,7 @@ h4 {
     font-family: 'Montserrat', sans-serif;
 }
 #typewriter {
-    height: 2.5rem;
+    font-size: 1rem;
     /* margin-bottom: 1rem; */
 }
 
@@ -235,13 +243,13 @@ h4 {
 
 
 /* Media Queries for responsiveness */
-@media only screen and (max-width: 992px) {
-    .nav-wrapper a{
+@media only screen and (min-width: 992px) {
+    /* .nav-wrapper a{
         font-size: 1.5rem;
-    }
+    } */
 
     #typewriter {
-        height: .25rem;
+        font-size: 2.25rem;
     }
 
     .about-text {
@@ -256,12 +264,21 @@ h4 {
     } */
 }
   
-@media only screen and (max-width: 768px) {
-    .nav-wrapper a{
+@media only screen and (min-width: 768px) {
+    /* .nav-wrapper a{
         font-size: 1.25rem;
-    }
+    } */
+
+    #renovationAnnouncement {
+        font-size: 1.25em;
+   }
+
+   /* #titleText {
+    font-size: 2.25em;
+} */
+
     #typewriter {
-        height: .1rem;
+        height: 2.5rem;
     }
 
     .about-text {
@@ -291,12 +308,15 @@ h4 {
     }
 
 }
- @media only screen and (max-width: 576px) {
-    .nav-wrapper a{
+ @media only screen and (min-width: 576px) {
+    /* .nav-wrapper a{
         font-size: .9rem;
     
-    }
+    } */
 
+    /* #titleText {
+        font-size: 1em;
+    } */
 
     h1 {
         font-size: 2rem;
@@ -306,14 +326,19 @@ h4 {
 }
 
 @media only screen and (max-width: 500px) {
-    .nav-wrapper a{
+    /* .nav-wrapper a {
+        font-size: .5rem;
+    } */
+
+    #renovationAnnouncement {
+        font-size: .85em;
+   }
+
+    #titleText {
         font-size: 1rem;
-     
+        line-height: 2.4   ;
     }
 
-    .brand-logo {
-        font-size: .8rem!important;
-    }
     body {
         background-size: 150vh; 
     }
