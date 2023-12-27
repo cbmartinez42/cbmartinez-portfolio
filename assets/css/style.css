@@ -16,11 +16,12 @@ body {
     color: rgb(195, 80, 60);
     font-size: 1.25em;
     font-weight: 700;
+    background-color: rgba(61, 113, 182, 0.438);
 }
 
 #renovationAnnouncement {
-    background-color: rgba(61, 113, 182, 0.438);
-    margin: .75em 4em 1em 4em;
+    /* background-color: rgba(61, 113, 182, 0.438); */
+    margin: .25em 4em .25em 4em;
 }
 
 #announcement {
